@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #333;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 300%;
+    background-position: center;
+    color: gray;
+    padding-bottom: 1%;
+    text-align: center;
+    width: 100%;top: 0%;
+}
+nav a{
+    color: white;
+    margin-right: 1%;
+    text-decoration: none;
+    padding: 0.5%;
+}
+nav a:hover{
+    background-color:#111 ;
+    color: yellow;
+}
+p{
+    font-family: cursive;
+    font-size: 220%;
+    font-weight: lighter;
+    color: white;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 350%;
+    color: white;
+    text-decoration: underline;
+}
+h2:hover{
+    color:yellow;
+}
+h4{
+    font-size: 200%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+.form{
+    box-sizing: border-box;
+    border: tomato 2px 2px;
+    background-color: turquoise;
+    font-size: 150%;
+    width: 30%;
+    height: 20%;
+    padding: 2%;
+    float: right;
+}
+section{
+    padding: 3%;
+}
+section a img{
+    width: 295px;
+    height: 195px;
+    margin: 6%;
+}
+section a img:hover{
+    width: 310px;
+    height: 210px;
+}
+.welcome{
+    background-image: url(img/bg_welcome.jpg);
+    background-size: 100% 100%;
+}
+#books{
+    background-image: url(img/bg_books.jpg);
+    background-size: 100% 100%;
+}
+#notes{
+    background-image: url(img/bg_notes.jpg);
+    background-size: 100% 100%;
+}
+#lectures{
+    background-image: url(img/bg_lectures.jpg);
+    background-size: 100% 100%;
+    text-decoration: none;
+}
+section:hover{
+    color: yellow;
+}
+section a video{
+    width: 300px;
+    height: 200px;
+    margin: 6%;
+}
+footer {
+    background-color: #333;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 150%;
+    margin-left: 10px;
+    
+}
+footer a:hover{
+    text-decoration: underline;
+}
+h5{
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 150%;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1.5%;
+}
